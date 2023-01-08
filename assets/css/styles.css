@@ -1,0 +1,32 @@
+#principal_container {
+  width: 500px;
+border-radius: 10px;
+}
+
+#secondary_container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  font-size: 30px;
+}
+button {
+  border: none;
+  border-radius: 2%;
+}
+
+.fix_width {
+  width: 200px;
+  height: 40px;
+  padding-bottom: 10px;
+  border-radius: 4%;
+}
+#value_money{
+    padding-bottom: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
